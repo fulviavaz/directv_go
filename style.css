@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 650px;
+  font-family: arial, sans-serif;
+}
+
+.bg-two {
+  background-color: #091a2b;
+  width: 100%;
+  margin-top: -60px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+header .list-items {
+  display: flex;
+  max-width: 650px;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+}
+
+#logo {
+  display: flex;
+  background-color: #091a2a;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  background-color: #091a2a;
+}
+
+.bg {
+  background-color: #0f203d;
+}
+
+.text p {
+  color: #fff;
+  align-items: center;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#hr {
+  max-width: 400px;
+  position: relative;
+  padding: 14px 0 32px;
+  margin: 0 auto;
+}
+
+#hr hr {
+  width: 100%;
+  border: 0;
+  border-top: 2px solid #006cac;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-align: center;
+}
+
+.cards .item {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.item {
+  background-color: #172547;
+  width: 190px;
+  border-radius: 15px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+.item p {
+  padding: 10px;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#apps {
+  padding-top: 50px;
+}
+
+#orange {
+  color: #f48120;
+  margin-top: -19px;
+  margin-bottom: 20px;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 120px;
+  padding-right: 120px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.bottom a {
+  font-size: 1.2rem;
+  font-style: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f48120;
+  padding: 15px;
+  width: 200px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0;
+}
+
+.footer {
+  color: #fff;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 0.9rem;
+  font-style: normal;
+  margin-top: -40px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.footer a {
+  color: #0a91df;
+}
+
+#social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 30px;
+  background-color: #091a2b;
+}
